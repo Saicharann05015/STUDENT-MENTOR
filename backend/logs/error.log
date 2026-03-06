@@ -1,0 +1,1341 @@
+[2026-03-06 02:44:58] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:15:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 02:45:28] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:36:33)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 02:46:44] ERROR: [POST] /api/v1/auth/register → 400: Duplicate value for field: Email
+MongoServerError: E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null }
+    at InsertOneOperation.handleOk (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\collection.js:154:16)
+[2026-03-06 02:47:21] ERROR: [POST] /api/v1/auth/register → 400: Duplicate value for field: Email
+MongoServerError: E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null }
+    at InsertOneOperation.handleOk (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\collection.js:154:16)
+[2026-03-06 02:48:57] ERROR: [POST] /api/v1/auth/register → 400: Duplicate value for field: Email
+MongoServerError: E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null }
+    at InsertOneOperation.handleOk (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\lib\collection.js:154:16)
+[2026-03-06 03:02:35] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:02:35] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:08:59] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:08:59] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:09:14] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:09:14] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:21:27] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:27] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:21:27] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:27] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:21:27] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:21:29] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:29] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:21:29] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:29] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:21:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:30] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:21:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:30] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:21:31] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:21:31] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:31] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:21:31] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:21:34] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:34] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:21:35] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:21:35] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:21:35] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:21:36] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:21:36] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:22:16] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:22:16] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:22:18] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:22:18] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:23:09] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:23:09] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:23:11] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:23:11] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:31:53] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:31:53] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:31:55] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:31:55] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:34:20] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:20] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:34:21] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:34:23] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:23] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:34:24] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:24] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 03:34:24] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:34:25] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:34:28] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:28] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:34:28] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:28] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:34:29] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:34:29] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:34:29] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:34:29] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:29] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:34:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:30] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 03:34:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:30] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:34:31] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 03:34:31] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 03:35:38] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:35:39] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:35:40] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:35:41] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:35:41] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:35:42] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:35:43] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:35:46] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:35:46] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:35:46] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:38:14] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:38:14] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:38:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:38:16] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:38:16] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:38:17] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:38:18] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:38:21] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:38:21] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:38:21] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:40:02] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:03] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:04] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:04] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:56] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:57] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:40:58] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:59] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:40:59] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:41:00] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:41:01] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:41:04] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:41:04] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:41:04] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:41:33] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:41:34] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:41:35] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:41:36] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:41:36] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:41:36] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:41:37] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:41:39] ERROR: Email failed: Missing credentials for "PLAIN"
+[2026-03-06 03:41:39] ERROR: Password reset email failed: Email could not be sent
+[2026-03-06 03:41:39] ERROR: [POST] /api/v1/auth/forgot-password → 500: Email could not be sent. Please try again later.
+Error: Email could not be sent. Please try again later.
+    at AuthService.forgotPassword (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:105:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:33:20
+[2026-03-06 03:42:13] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:42:14] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:42:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:42:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 03:42:47] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:42:50] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:42:52] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:43:34] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:43:36] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:43:36] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:45:54] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:45:57] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:45:59] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:48:49] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:48:51] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:48:52] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:55:12] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 03:55:15] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 03:55:16] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:01:09] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 04:01:09] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:63:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:03:44] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 04:03:44] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:63:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:03:54] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 04:03:54] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:63:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:07:39] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 04:07:39] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:63:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:13:34] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:13:34] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:15:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:15:30] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:56:24
+[2026-03-06 04:16:07] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:16:07] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at async DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 04:16:12] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:16:12] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at async DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 04:16:18] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:16:18] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at async DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 04:16:20] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:16:20] ERROR: [POST] /api/v1/skills/diagnose/start → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._generateQuestions (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:177:26)
+    at async DiagnosisEngine.startDiagnosis (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:17:31)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:12:20
+[2026-03-06 04:16:42] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/Gemini API Key:generateContent: [400 Bad Request] * GenerateContentRequest.model: unexpected model name format
+
+[2026-03-06 04:16:42] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:133:26)
+    at async RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 04:34:36] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:35:12] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:36:19] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:37:09] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:37:55] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:38:35] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:40:06] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:40:33] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:41:24] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 04:57:19] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 06:07:20] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.937098462s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}]
+[2026-03-06 06:07:20] ERROR: [POST] /api/ai/chat → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:25:24
+[2026-03-06 06:07:24] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 35.454481715s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2026-03-06 06:07:24] ERROR: [POST] /api/ai/chat → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:25:24
+[2026-03-06 13:51:39] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 13:51:41] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 13:51:41] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 14:16:24] ERROR: [POST] /api/v1/roadmaps/generate → 400: `reading` is not a valid enum value for path `type`.
+ValidationError: Roadmap validation failed: milestones.2.resources.2.type: `reading` is not a valid enum value for path `type`.
+    at Document.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at Subdocument.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at Subdocument.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-03-06 14:30:10] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[2026-03-06 14:30:10] ERROR: [POST] /api/v1/roadmaps/generate → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async RoadmapEngine._generateRoadmapContent (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:138:26)
+    at async RoadmapEngine.generateRoadmap (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\roadmapEngine.js:28:29)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\roadmapController.js:11:21
+[2026-03-06 14:31:11] ERROR: [POST] /api/v1/roadmaps/generate → 400: `exercise` is not a valid enum value for path `type`.
+ValidationError: Roadmap validation failed: milestones.0.resources.2.type: `exercise` is not a valid enum value for path `type`.
+    at Document.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at Subdocument.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at Subdocument.invalidate (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\types\subdocument.js:257:12)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+[2026-03-06 14:33:25] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 14:33:27] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 14:33:27] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 14:45:48] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 14:45:49] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 14:45:49] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:37:31] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 15:37:33] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:37:33] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:50:41] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 15:50:42] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:50:42] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:51:29] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 15:51:30] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:51:30] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 15:58:30] ERROR: [POST] /api/v1/auth/register → 500: read ECONNRESET
+MongoNetworkError: read ECONNRESET
+    at Connection.onSocketError (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cmap\connection.ts:308:18)
+    at Socket.emit (node:events:520:35)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-06 16:01:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:02:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:03:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:04:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:05:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:06:00] ERROR: [POST] /api/v1/auth/register → 500: connect ECONNREFUSED 127.0.0.1:55185
+MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:55185
+    at Topology.selectServer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\sdam\topology.ts:635:30)
+    at tryOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:202:16)
+    at executeOperation (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at FindCursor._initialize (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\find_cursor.ts:92:22)
+    at FindCursor.cursorInit (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:949:21)
+    at FindCursor.fetchBatch (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:987:7)
+    at FindCursor.next (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\cursor\abstract_cursor.ts:608:9)
+    at Collection.findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongodb\src\collection.ts:552:20)
+    at model.Query._findOne (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at model.Query.exec (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:16:30)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:07:26] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:07:28] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:07:28] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:13:14] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:13:17] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:13:17] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:16:18] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:16:20] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:16:21] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:16:24] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:26] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:26] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:26] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:16:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:08] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:21:10] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:21:10] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:21:15] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:17] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:17] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:17] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:21:18] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:25:59] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:26:01] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:26:01] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:26:05] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:08] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:16] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:26:16] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:30] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:32] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:32] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:36] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 16:45:39] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:45:39] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 16:45:43] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:44] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:45:45] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:48:13] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:48:14] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 16:48:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:23:48] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:23:50] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:23:51] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:25:07] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:25:09] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:25:09] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:27:51] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:27:53] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:27:53] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:27:56] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 17:27:58] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:27:58] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:28:05] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:06] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:28:07] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:38:48] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:38:49] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:38:49] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:39:25] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:39:27] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:39:27] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:40:12] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:40:13] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:40:14] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:41:13] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:41:14] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:41:15] ERROR: Failed to parse roadmap AI response: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:02] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 17:43:04] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:43:05] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:43:09] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:10] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:10] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:10] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:43:11] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:32] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 17:48:34] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:39:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:48:34] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 17:48:38] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:39] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 17:48:40] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 18:30:58] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 966.880813ms. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"0s"}]
+[2026-03-06 18:30:58] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:02] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 57.003646216s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"57s"}]
+[2026-03-06 18:31:02] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:07] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 51.457279671s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"51s"}]
+[2026-03-06 18:31:07] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:26] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 33.416388644s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"33s"}]
+[2026-03-06 18:31:26] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:33] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 25.431063143s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"25s"}]
+[2026-03-06 18:31:33] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:36] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 23.002832918s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"23s"}]
+[2026-03-06 18:31:36] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:38] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 21.331859441s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"21s"}]
+[2026-03-06 18:31:38] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:39] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 20.065208575s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"20s"}]
+[2026-03-06 18:31:39] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:40] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 18.809075521s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"18s"}]
+[2026-03-06 18:31:40] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:31:41] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.424292077s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"17s"}]
+[2026-03-06 18:31:41] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:65:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:263:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:85:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:39:49] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 9.881944619s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"9s"}]
+[2026-03-06 18:39:49] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:257:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:94:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:39:53] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 6.221896249s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+[2026-03-06 18:39:53] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:257:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:94:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:39:54] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 4.529230778s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"4s"}]
+[2026-03-06 18:39:54] ERROR: [POST] /api/v1/skills/diagnose/69aa9d4afaa970f61152b48e/answer → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async DiagnosisEngine._evaluateAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:257:26)
+    at async DiagnosisEngine.submitAnswer (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\diagnosisEngine.js:94:28)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\skillController.js:27:20
+[2026-03-06 18:40:03] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.691432741s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"55s"}]
+[2026-03-06 18:40:03] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 18:50:42] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.15432983s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"17s"}]
+[2026-03-06 18:50:42] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 19:20:54] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 4.935005998s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"4s"}]
+[2026-03-06 19:20:54] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 19:24:56] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 2.639326839s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"2s"}]
+[2026-03-06 19:24:56] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 19:26:49] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 10.174752534s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"10s"}]
+[2026-03-06 19:26:49] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:97:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 19:36:30] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+Please retry in 28.802447977s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.5-pro","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-pro","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-pro","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerDay-FreeTier","quotaDimensions":{"model":"gemini-2.5-pro","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"28s"}]
+[2026-03-06 19:36:30] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:95:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:19:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:27] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:28] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:19:29] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:43] ERROR: [POST] /api/v1/auth/register → 400: Email already registered
+Error: Email already registered
+    at AuthService.register (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:18:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:8:20
+[2026-03-06 20:24:45] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:44:33)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 20:24:45] ERROR: [POST] /api/v1/auth/login → 401: Invalid credentials
+Error: Invalid credentials
+    at AuthService.login (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\authService.js:34:33)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\authController.js:15:20
+[2026-03-06 20:24:49] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:50] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:51] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:51] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:51] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse JIT AI question: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:24:52] ERROR: Failed to parse AI evaluation: Unexpected token 'G', "Generic response" is not valid JSON
+[2026-03-06 20:30:42] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 20:30:42] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:31:14] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 20:31:14] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:31:20] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 20:31:20] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:31:25] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2026-03-06 20:31:25] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:38:36] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 22.533595028s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"22s"}]
+[2026-03-06 20:38:36] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:38:54] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 4.651104674s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"4s"}]
+[2026-03-06 20:38:54] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:38:59] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 59.424829921s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.5-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}]
+[2026-03-06 20:38:59] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:40:47] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 11.227469016s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"11s"}]
+[2026-03-06 20:40:47] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:41:10] ERROR: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 48.015440266s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]
+[2026-03-06 20:41:10] ERROR: [POST] /api/ai/chat/new → 502: Failed to generate AI response. Please try again later.
+Error: Failed to generate AI response. Please try again later.
+    at generateAIResponse (C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\services\geminiService.js:131:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\chinn\OneDrive\Desktop\Student Mentor\backend\controllers\aiController.js:57:24
+[2026-03-06 20:47:30] ERROR: Failed to parse AI evaluation: Unterminated string in JSON at position 2554 (line 12 column 1944)
